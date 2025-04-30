@@ -1,18 +1,1 @@
-import random
-firstyear_names = ["Raidin", "Noah", "Julian", "Jeremy", "Kenny", "Evan", "javier"]
-secondyear_names = ["Jaime", "desean", "enoch", "Manuel", "Gus", "Ewan"]
 
-complimentGen = ["is smart", "is funny", "is helpful", ""]
-
-def complimentGen(section):
-    print("Compliments")
-    if section == "firstyear":
-        for i in range(3):
-            print(firstyear_names[random.randrange(0, 7)], compliment[random.randrange(0, 3)])
-        else:
-            for i in range(3):
-                print(secondyear_names[random.randrange(0, 6)], compliment[random.randrange(0, 3)])
-        
-        
-choice = input("pick firstyear or 2ndyear")
-complimentGen(choice)
